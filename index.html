@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .wrapper {
+        background: url(https://i.pinimg.com/originals/8d/88/b0/8d88b094eab735506b66a4494338cf77.jpg);
+        background-size: cover;
+        height: 500px;
+      }
+      .navbar {
+        height: 60px;
+        width: 1093px;
+        background: rgba(13, 13, 13, 0.972);
+      }
+      .logo {
+        height: 40px;
+        width: 50px;
+        padding: 10px;
+        margin-left: 40px;
+      }
+      .navbar ul {
+        float: right;
+        margin-right: 30px;
+      }
+      .navbar ul li {
+        list-style: none;
+        margin: 0 8px;
+        display: inline-block;
+        line-height: 50px;
+      }
+      .navbar ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+        padding: 6px 10px;
+        font-family: "roboto", sans-serif;
+      }
+      .navbar ul li a.active,
+      .navbar ul li a:hover {
+        background: red;
+        border-radius: 2px;
+      }
+      .row {
+        display: flex;
+        height: 88%;
+        align-items: center;
+      }
+      .col {
+        flex-basis: 40%;
+        margin-left: 40px;
+      }
+      h1 {
+        color: orangered;
+        font-size: 60px;
+      }
+      button {
+        width: 180px;
+        color: #000;
+        font-size: 12px;
+        padding: 12px 0;
+        background: rgb(219, 254, 19);
+        border: 0;
+        border-radius: 20px;
+        outline: none;
+        margin-top: 30px;
+      }
+      .card {
+        width: 180px;
+        height: 120px;
+        display: inline-block;
+        border-radius: 10px;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+
+        background-position: center;
+        background-size: cover;
+        transition: transform 0.5s;
+      }
+      .card-1 {
+        background-image: url(https://i.pinimg.com/originals/7e/c9/30/7ec9301e81aed10c4ab2a028c8030d24.jpg);
+      }
+      .card-2 {
+        background-image: url(https://cdn.pixabay.com/photo/2020/09/18/23/17/pepsi-5583105_640.jpg);
+      }
+      .card-3 {
+        background-image: url(http://wallpaperset.com/w/full/f/e/b/238605.jpg);
+      }
+      .card-4 {
+        background-image: url(https://cdn.pixabay.com/photo/2018/04/12/18/13/sunset-3314275__340.jpg);
+      }
+      .card:hover {
+        transform: translateY(-10px);
+      }
+      .hhhh1 {
+        background: url(https://images6.alphacoders.com/774/thumb-1920-774373.jpg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="navbar">
+        <img
+          class="logo"
+          src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2013/01/pepsi.jpg"
+        />
+        <ul>
+          <li><a class="active" href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">SERVICES</a></li>
+          <li><a href="#">CONTACT</a></li>
+          <li><a href="#">FAEBOOK</a></li>
+        </ul>
+      </nav>
+      <div class="row">
+        <div class="col">
+          <h1>Pepsi</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+            labore cumque optio. Adipisci magni ea iure? Ipsam impedit
+            reprehenderit, eligendi, aperiam error natus at porro facere optio
+            quisquam amet consequatur.
+          </p>
+          <button type="button">Explore</button>
+        </div>
+        <div class="col">
+          <div class="card card-1">
+            <h5>Western Desert-1</h5>
+          </div>
+          <div class="card card-2">
+            <h5>Western Desert-2</h5>
+          </div>
+          <div class="card card-3">
+            <h5>Western Desert-3</h5>
+          </div>
+          <div class="card card-4">
+            <h5>Western Desert-4</h5>
+          </div>
+        </div>
+      </div>
+      <div class="hhhh1">
+        <nav>
+          <ul>
+            <li><a href="#">PEPSI</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </body>
+</html>
